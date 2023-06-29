@@ -1,0 +1,119 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #F3F3F7;
+}
+
+header {
+    background-image: linear-gradient(#14482e,#257644);
+    color: white;
+}
+
+.header {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-weight: 450;
+    font-size: 0.9em;
+}
+
+.header div {
+    min-width: 58%;
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #174930;
+}
+
+.nav2 p{
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.nav2 p:first-child{
+    background-color: #F3F3F7;
+    color: #555;
+}
+
+.primamt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav div p{
+    margin-top: 0.3em;
+    margin-bottom: 1em;
+}
+
+.item {
+    border-radius: 50%;
+    background-color: #063c27;
+    padding: 0.8em;
+    font-size: 1.2em;
+    width: 1em;
+    margin: 0.5em 0 0 0;
+}
+
+section span {
+    display: block;
+    color: #555;
+    font-weight: 400;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    font-size: 0.8em;
+}
+
+section div {
+    background-color: white;
+    padding: 0.5em 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 2px #ccc;
+}
+
+section div p:last-child{
+    color: #555;
+}
+
+.amt {
+    color: #4ea661 !important;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

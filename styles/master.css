@@ -1,0 +1,112 @@
+@import "./reset.css";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    background-color: #F3F3F7;
+}
+
+header {
+    background-color: #14482E;
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    font-weight: 450;
+}
+
+header div {
+    min-width: 58%;
+}
+
+h2 {
+    color: #5c5c5c;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+h3 {
+    text-transform: uppercase;
+    max-width: 70%;
+}
+
+footer {
+    padding: 1.5em;
+    border-bottom: solid 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    font-size: 0.8em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: all 0.3s linear;
+}
+
+a:hover{
+    background-color: #333;
+}
+
+footer p:first-child{
+    color: #555555;
+}
+
+footer p:nth-child(2), footer p:nth-child(3){
+    color: #3f6e57;
+}
+
+i {
+    color: #aaa;
+}
+
+header i {
+    color: white;
+}
+
+.container {
+    background-color: white;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 2px #dddddd;
+
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+    justify-content: flex-end;
+    padding: 0.1em 0;
+}
+
+.amt {
+    color: #1d8e37;
+}
+
+.mini {
+    font-size: 0.7em;
+    padding: 0.5em 0;
+    color: #525252;
+    font-weight: 500;
+}
+
+.total {
+    background-color: #f4faff;
+    border-bottom: solid 2px #a6a7a6;
+}
+
+.usd {
+    font-size: 0.8em;
+    color: #555;
+}
